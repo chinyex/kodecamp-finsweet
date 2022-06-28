@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .main-header .logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.container{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li{
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#main-section  .text-section {  
+    width: 45%;
+}
+
+#main-section .image-section {
+    width: 45%;
+}    
+
+#main-section , #Quote-section {
+    padding: 80px 0;
+}
+
+#main-section .image-section {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+.text-section h1{
+    font-size: 45px;
+}
+
+.orange-btn {
+    background: #ff6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.time-section {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
+   
+}
+
+.text-section .image-box {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-section .time-text {
+    width: 90%;
+}
+
+
+.time-section img {
+    width: 100%;
+    
+}
+
+.light-green {
+    color: #939193;
+    font-size: smaller;
+}
+
+#Quote-section  {
+    background:#e2e6e9 ;
+}
+
+#Quote-section .left-section ,#Quote-section .right-section {
+     width: 45%; 
+}
+
+#Quote-section ul {
+    list-style: none;
+}
+
+#Quote-section li {
+    margin-bottom: 20px;
+}
+
+#Quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+
+}
+
+#Quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#Quote-section .right-form-section h3 {
+    font-size: 48px;
+
+}
+
+#Quote-section .right-form-section input{
+    width: 100%;
+    padding: 10px ;
+    
+}
+
+#home-section .left-section ,#home-section .right2-section {
+    width: 45%;
+}
+
+#home-section .left-section { 
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+
+#home-section .left-section .text1-section p {
+    font-size: 16px;
+}
+
+#home-section .left-section .text-section {
+    margin-top: 20px;
+
+}
+
+#home-section .left-section h1 {
+    margin-top: 180px;
+}
+
+#home-section .right2-section ul{
+    list-style: none;
+
+}
+
+#home-section .right2-section h1{
+    margin-top: 10px;
+    margin-right: 50px;
+}  
+
+
+#home-section .right2-section .menu-section {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+  #home-section .right2-section .menu-section .text-section h1{
+    font-size: 32px;
+    margin-right: 50px;
+
+}
+
+
+#home-section .right2-section .image-section {
+    margin-left: 220px;
+    margin-bottom: 50px;
+    
+}
